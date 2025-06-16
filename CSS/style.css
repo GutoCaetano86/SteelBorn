@@ -9,8 +9,12 @@
             font-family: 'Montserrat', sans-serif;
         }
         .hero-bg {
-            background-image: url('https://placehold.co/1920x1080/1a202c/ffffff?text=Ambiente+Industrial+SteelBorn');
+            background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
+        }
+        /* Fallback para imagens com erro */
+        img {
+            background-color: #2d3748;
         }
     </style>

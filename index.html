@@ -15,8 +15,9 @@
     
     <!-- Ícones (Lucide) -->
     <script src="https://unpkg.com/lucide-react@0.292.0/dist/lucide-react.js"></script>
+
+<link rel="stylesheet" href="./CSS/style.css">
     
-    <link rel="stylesheet" href="./CSS/style.css">
 
 </head>
 <body class="antialiased">
@@ -39,7 +40,7 @@
             </button>
         </nav>
         <!-- Menu Mobile -->
-        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2">
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4 space-y-2 bg-gray-900/95">
             <a href="#home-office" class="block text-gray-300 hover:text-amber-500 transition duration-300">Home Office</a>
             <a href="#corporativo" class="block text-gray-300 hover:text-amber-500 transition duration-300">Corporativo</a>
             <a href="#decoracao" class="block text-gray-300 hover:text-amber-500 transition duration-300">Decoração</a>
@@ -74,21 +75,21 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <!-- Categoria 1: Home Office -->
                     <div id="home-office" class="group relative overflow-hidden rounded-lg shadow-xl transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="https://placehold.co/600x800/2d3748/ffffff?text=Home+Office" alt="Móveis para Home Office" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop" alt="Móveis para Home Office" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" onerror="this.onerror=null;this.src='https://placehold.co/600x800/2d3748/ffffff?text=Home+Office';">
                         <div class="absolute inset-0 bg-black/50 flex items-end p-6">
                             <h3 class="text-white text-3xl font-bold">Home Office</h3>
                         </div>
                     </div>
                     <!-- Categoria 2: Corporativo -->
                     <div id="corporativo" class="group relative overflow-hidden rounded-lg shadow-xl transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="https://placehold.co/600x800/4a5568/ffffff?text=Corporativo" alt="Móveis para Escritórios Corporativos" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop" alt="Móveis para Escritórios Corporativos" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" onerror="this.onerror=null;this.src='https://placehold.co/600x800/4a5568/ffffff?text=Corporativo';">
                         <div class="absolute inset-0 bg-black/50 flex items-end p-6">
                             <h3 class="text-white text-3xl font-bold">Corporativo</h3>
                         </div>
                     </div>
                     <!-- Categoria 3: Decoração -->
                     <div id="decoracao" class="group relative overflow-hidden rounded-lg shadow-xl transform hover:-translate-y-2 transition-transform duration-300">
-                        <img src="https://placehold.co/600x800/718096/ffffff?text=Decoração" alt="Móveis de Decoração Industrial" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=2080&auto=format&fit=crop" alt="Móveis de Decoração Industrial" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" onerror="this.onerror=null;this.src='https://placehold.co/600x800/718096/ffffff?text=Decoração';">
                         <div class="absolute inset-0 bg-black/50 flex items-end p-6">
                             <h3 class="text-white text-3xl font-bold">Decoração</h3>
                         </div>
@@ -102,10 +103,10 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">Destaques SteelBorn</h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Produto 1 -->
+                    <!-- Produto 1: Mesa "Forge" -->
                     <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                            <img src="https://placehold.co/500x500/1a202c/ffffff?text=Mesa+Rústica" alt="Mesa de Escritório Industrial" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                            <img src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?q=80&w=1974&auto=format&fit=crop" alt="Mesa de Escritório Industrial Forge" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.onerror=null;this.src='https://placehold.co/500x500/1a202c/ffffff?text=Mesa+Forge';">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-white">Mesa de Escritório "Forge"</h3>
@@ -116,10 +117,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Produto 2 -->
+                    <!-- Produto 2: Estante "Rivet" -->
                     <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                            <img src="https://placehold.co/500x500/2d3748/ffffff?text=Estante+Modular" alt="Estante de Aço e Madeira" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                            <img src="https://placehold.co/500x500/2d3748/eab308?text=Estante+Rivet" alt="Estante de Aço e Madeira Rivet" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-white">Estante Modular "Rivet"</h3>
@@ -130,10 +131,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Produto 3 -->
+                    <!-- Produto 3: Aparador "Loft" -->
                     <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                            <img src="https://placehold.co/500x500/4a5568/ffffff?text=Aparador+Loft" alt="Aparador Industrial" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                            <img src="https://placehold.co/500x500/4a5568/eab308?text=Aparador+Loft" alt="Aparador Industrial Loft" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-white">Aparador "Loft"</h3>
@@ -144,10 +145,10 @@
                             </div>
                         </div>
                     </div>
-                     <!-- Produto 4 -->
+                     <!-- Produto 4: Luminária "Gear" -->
                     <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg group">
                         <div class="overflow-hidden">
-                           <img src="https://placehold.co/500x500/718096/ffffff?text=Luminária+Gear" alt="Luminária de Mesa Industrial" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500">
+                           <img src="https://images.unsplash.com/photo-1549488344-cbb6c34cf08b?q=80&w=1974&auto=format&fit=crop" alt="Luminária de Mesa Industrial Gear" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.onerror=null;this.src='https://placehold.co/500x500/718096/ffffff?text=Luminária+Gear';">
                         </div>
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-white">Luminária "Gear"</h3>
@@ -167,7 +168,7 @@
             <div class="container mx-auto px-6">
                 <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
-                        <img src="https://placehold.co/800x600/111827/ffffff?text=Oficina+SteelBorn" alt="Processo de fabricação de móveis" class="rounded-lg shadow-2xl w-full">
+                        <img src="https://images.unsplash.com/photo-1504917595217-d49542ab414c?q=80&w=2070&auto=format&fit=crop" alt="Processo de fabricação de móveis" class="rounded-lg shadow-2xl w-full" onerror="this.onerror=null;this.src='https://placehold.co/800x600/111827/ffffff?text=Oficina+SteelBorn';">
                     </div>
                     <div class="md:w-1/2">
                         <h2 class="text-3xl md:text-4xl font-bold text-white">A Alma do Aço, a Beleza da Forma</h2>
@@ -212,6 +213,8 @@
             </div>
         </div>
     </footer>
+
 <script src="./JS/script.js"></script>
+
 </body>
 </html>
