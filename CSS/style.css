@@ -1,0 +1,16 @@
+    <style>
+        /* Estilos personalizados para aplicar as fontes do Google Fonts */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #111827; /* Cinza escuro como base */
+            color: #E5E7EB; /* Cinza claro para textos */
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://placehold.co/1920x1080/1a202c/ffffff?text=Ambiente+Industrial+SteelBorn');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
